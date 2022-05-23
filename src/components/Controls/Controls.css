@@ -1,0 +1,47 @@
+.burger_controls {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: right;
+}
+
+.burger_control_item {
+    display: flex;
+    align-items: center;
+}
+
+.burger_control_item span {
+    margin: 0 10px;
+    width: 15px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.burger_control_item img {
+    margin-left: 10px;
+}
+
+.add_ingr,
+.rmv_ingr {
+    cursor: pointer;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border: 1px solid lightblue;
+}
+
+.rmv_ingr {
+    background-color: #c98d8a;
+}
+
+.add_ingr {
+    background-color: lightgreen;
+}
+
+.add_ingr:active,
+.rmv_ingr:active {
+    opacity: 0.4;
+}

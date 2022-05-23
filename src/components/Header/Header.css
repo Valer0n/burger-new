@@ -1,0 +1,14 @@
+.header {
+    min-height: 10vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h2 {
+    font-family: 'Monoton', cursive !important;
+    color: wheat;
+    font-size: 30px;
+}

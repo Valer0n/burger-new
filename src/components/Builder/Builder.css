@@ -1,0 +1,83 @@
+.burger_builder {
+    background-color: rgba(255, 255, 255, 0.45);
+    flex-grow: 2;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.btn_checkout {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.burger_image {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+/* .burger_image img:not(:last-child) {
+    margin-bottom: 10px;
+} */
+p {
+    margin: 10px 0;
+}
+
+/* p {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin-bottom: 10px;
+} */
+.cheese {
+    width: 350px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+
+.bacon {
+    width: 410px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(214, 99, 99);
+    margin-bottom: 10px;
+}
+
+.meat {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(70, 31, 41);
+    margin-bottom: 10px;
+}
+
+.chicken {
+    width: 340px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(173, 173, 105);
+    margin-bottom: 10px;
+}
+
+.salad {
+    width: 420px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+.pickle {
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: rgb(41, 129, 55);
+    margin-bottom: 10px;
+}

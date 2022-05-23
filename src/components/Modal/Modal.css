@@ -1,0 +1,74 @@
+.modal {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.order {
+    color: green;
+    margin: 0px 0px 5px 0px;
+}
+
+.modal-price {
+    color: rgb(7, 248, 27);
+}
+
+input {
+    /* width: 180px;
+    height: 30px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid green;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(119, 8, 8, 0.8);
+}
+
+label {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.modal__input {
+
+    margin-bottom: 30px;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.apply-button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid green;
+    color: green;
+}
+
+.button-close {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(179, 37, 37);
+    border: none;
+}
+
+.button-order {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(9, 134, 9);
+    border: none;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+}

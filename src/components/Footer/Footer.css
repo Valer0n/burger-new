@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    min-height: 5vh;
+}
+
+ul li {
+    margin: 0;
+    height: 20px;
+    cursor: pointer;
+    color: antiquewhite;
+    list-style: none;
+    font-weight: 800;
+    font-size: larger;
+    border: 0px solid aquamarine;
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul>li:hover {
+    border-color: antiquewhite;
+    opacity: 0.6;
+}
